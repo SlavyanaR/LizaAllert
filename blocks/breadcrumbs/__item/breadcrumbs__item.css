@@ -1,0 +1,16 @@
+.breadcrumbs__item{
+  display: inline;
+  list-style: none;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0;
+  padding: 0 0 16px;
+  overflow: hidden;
+  max-width: 521px;
+  white-space: nowrap;
+}
+
+.breadcrumbs__item:last-of-type{
+  color: #9397A3;
+
+}

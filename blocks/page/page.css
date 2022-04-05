@@ -1,0 +1,18 @@
+.page {
+  background: #FCFCFC;
+  color: #212329;
+  font-family: Golos, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  max-width: 1440px;
+  margin: auto;
+  padding: 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 60px minmax(min-content, calc(65% - 60px)) 24px 1fr 60px;
+  grid-template-areas:
+    "header header header header header"
+    ". breadcrumbs breadcrumbs breadcrumbs ."
+    ". content . index ."
+    ". content . index .";
+  row-gap: 24px;
+}
