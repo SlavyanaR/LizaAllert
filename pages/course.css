@@ -11,14 +11,17 @@
 
 @import url(../blocks/title/title.css);
 @import url(../blocks/content/content.css);
-@import url(../blocks/description/description.css);
-@import url(../blocks/description/__header/description__header.css);
-@import url(../blocks/description/__header-text/description__header-text.css);
-@import url(../blocks/description/__button/description__button.css);
-@import url(../blocks/description/__text/description__text.css);
-@import url(../blocks/description/__subheader/description__subheader.css);
-@import url(../blocks/description/__list/description__list.css);
-@import url(../blocks/description/__list-el/description__list-el.css);
+@import url(../blocks/card/card.css);
+@import url(../blocks/card/__header/card__header.css);
+@import url(../blocks/card/__header-text/card__header-text.css);
+@import url(../blocks/card/__button/card__button.css);
+@import url(../blocks/card/__text/card__text.css);
+@import url(../blocks/card/__subheader/card__subheader.css);
+@import url(../blocks/card/__list/card__list.css);
+@import url(../blocks/card/__list-el/card__list-el.css);
+@import url(../blocks/card/__icon/card__icon.css);
+@import url(../blocks/card/__point-box/card__point-box.css);
+@import url(../blocks/card/__point/card__point.css);
 
 @import url(../blocks/index/index.css);
 

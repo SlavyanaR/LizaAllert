@@ -1,10 +1,13 @@
-.description__list {
+.card__list-el {
   font-family: 'Golos';
-  padding-left: 30px;
   font-weight: 400;
   font-size: 18px;
   line-height: 24px;
-
+  margin: 0 0 18px;
+  
   color: #212329;
-  margin: 16px 0 0;
+}
+
+.card__list-el:last-of-type {
+  margin: 0;
 }
