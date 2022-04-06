@@ -2,8 +2,26 @@
 @import url(../vendor/fonts/fonts.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__links/header__links.css);
+@import url(../blocks/header/__list-el/header__list-el.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__link-image/header__link-image.css);
 @import url(../blocks/breadcrumbs/breadcrumbs.css);
+
 @import url(../blocks/title/title.css);
+@import url(../blocks/content/content.css);
+@import url(../blocks/card/card.css);
+@import url(../blocks/card/__header/card__header.css);
+@import url(../blocks/card/__header-text/card__header-text.css);
+@import url(../blocks/card/__button/card__button.css);
+@import url(../blocks/card/__text/card__text.css);
+@import url(../blocks/card/__subheader/card__subheader.css);
+@import url(../blocks/card/__list/card__list.css);
+@import url(../blocks/card/__list-el/card__list-el.css);
+@import url(../blocks/card/__icon/card__icon.css);
+@import url(../blocks/card/__point-box/card__point-box.css);
+@import url(../blocks/card/__point/card__point.css);
 
 @import url(../blocks/index/index.css);
 

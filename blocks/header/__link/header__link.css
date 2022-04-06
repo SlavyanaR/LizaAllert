@@ -1,0 +1,9 @@
+.header__link {
+  font-family: 'Golos';
+  color: #212329;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  text-decoration: none;
+}
