@@ -15,8 +15,10 @@
   <header class="header">
     <h2 class="header__logo">Учебная платформа</h2>
     <ul class="header__links">
-      <li class="header__list-el"><a class="header__link" href="#"><img class="header__link-image" src="./images/header-course-button.png" alt="Лого">Курсы</a></li>
-      <li class="header__list-el"><a class="header__link" href="#"><img class="header__link-image" src="./images/header-profile-button.png" alt="Лого">Профиль</a></li>
+      <li class="header__list-el"><a class="header__link" href="#"><img class="header__link-image"
+            src="./images/header-course-button.png" alt="Лого">Курсы</a></li>
+      <li class="header__list-el"><a class="header__link" href="#"><img class="header__link-image"
+            src="./images/header-profile-button.png" alt="Лого">Профиль</a></li>
     </ul>
   </header>
   <nav class="breadcrumbs">
@@ -40,21 +42,34 @@
   <main class="content">
     <section class="index-background">
       <h1 class="index-title">Вебинар</h1>
-      <div class="index-button">
-        <button type="button" class="button button_type_inactive">
-          <img src="" alt="Назад" class="button__image">
-          Назад
-        </button>
-        <button type="button" class="button button_type_active">
-          Далее
-          <img src="" alt="Далее" class="button__image">
-        </button>
-      </div>
+      <p class="card__text card__text_type_vebinar">Вебинар стартует<span class="card__text_bold">
+          &nbsp;30.03.2022&nbsp; </span>в<span class="card__text_bold"> &nbsp;19:00&nbsp; </span> МСК (GTM+3)</p>
+      <button type="button" class="button button_type_active">
+        <a href="https://yandex.zoom.us/j/95016158702" class="button__link">
+          Подключиться</a>
+      </button>
     </section>
+    <div class="index-button">
+      <button type="button" class="button button_type_inactive">
+        <img src="./images/back-arrow-inactive.svg" alt="Назад" class="button__image button__image_left">
+        Назад
+      </button>
+      <button type="button" class="button button_type_active">
+        Далее
+        <img src="./images/forward-arrow-active.svg" alt="Далее" class="button__image button__image_right">
+      </button>
+    </div>
+
 
   </main>
 
   <aside class="index">
+    <section class="index-background">
+      <h3 class="index-title">Содержание</h3>
+      <ul class="index-list">
+        <li class="index-list__item"></li>
+      </ul>
+    </section>
 
   </aside>
 
