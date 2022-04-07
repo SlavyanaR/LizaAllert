@@ -33,3 +33,6 @@
 @import url(../blocks/index-list/__item/index-list__item.css);
 @import url(../blocks/card/card.css);
 @import url(../blocks/card/__header-text/card__header-text.css);
+@import url(../blocks/card/__icon/_row/card__icon_row.css);
+@import url(../blocks/card/__icon/card__icon.css);
+@import url(../blocks/card/__text/card__text.css);
