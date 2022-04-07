@@ -13,6 +13,8 @@
 @import url(../blocks/breadcrumbs/__link/breadcrumbs__link.css);
 @import url(../blocks/content/content.css);
 @import url(../blocks/card/card.css);
+@import url(../blocks/card/__header-text/card__header-text.css);
+@import url(../blocks/card/__text-margin/card__text-margin.css);
 @import url(../blocks/card/__text/card__text.css);
 @import url(../blocks/card/__subheader/card__subheader.css);
 @import url(../blocks/button/button.css);

@@ -1,5 +1,4 @@
-.card__header {
+.description__header {
   display: flex;
   justify-content: space-between;
-  width: 808px;
 }
