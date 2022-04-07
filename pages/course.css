@@ -32,6 +32,9 @@
 @import url(../blocks/card/__icon/_video/card__icon_video.css);
 @import url(../blocks/card/__icon/_vebinar/card__icon_vebinar.css);
 @import url(../blocks/card/__icon/_test/card__icon_test.css);
+@import url(../blocks/card/__block/_faq/card__block_faq.css);
+@import url(../blocks/card/__button/_faq/card__button_faq.css);
+@import url(../blocks/card/__text-margin/card__text-margin.css);
 
 @import url(../blocks/index/index.css);
 

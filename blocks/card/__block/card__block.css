@@ -3,7 +3,7 @@
   display: flex;
   column-gap: 24px;
   padding-bottom: 33px;
-  border-bottom: 1px solid #E6E7EB;;
+  border-bottom: 1px solid #E6E7EB;
 }
 
 .card__block:last-of-type {
