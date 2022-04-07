@@ -8,6 +8,7 @@
   overflow: hidden;
   max-width: 521px;
   white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .breadcrumbs__item:last-of-type{
