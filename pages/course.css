@@ -35,6 +35,7 @@
 @import url(../blocks/card/__block/_faq/card__block_faq.css);
 @import url(../blocks/card/__button/_faq/card__button_faq.css);
 @import url(../blocks/card/__text-margin/card__text-margin.css);
+@import url(../blocks/card/__close/card__close.css);
 
 @import url(../blocks/index/index.css);
 

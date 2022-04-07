@@ -30,17 +30,19 @@
         <h2 class="card__header-text">Описание курса</h2>
         <button type="button" class="card__button" aria-label="Свернуть описание курса">Свернуть</button>
       </div>
+      <div id="cardDescribe">
       <p class="card__text">Наряду с профессиональными отрядами спасателей у нас активно развивается движение волонтёров. Мы начали готовить первых собак-спасателей в начале 2000-х 
-        и продолжаем заниматься этим непростым делом до сих пор. С 2018 года, совместно с руководством отряда «ЛизаАлерт» было принято решение о развитии кинологического направления в рамках отряда.</p>
-      <div class="card__row-gap">
-        <h3 class="card__subheader">Основные задачи нашего подразделения:</h3>
-        <ul class="card__list">
-          <li class="card__list-el">Безвозмездное оказание помощи гражданам, оказавшимся в зонах бедствия или&nbsp;пропавшим в безлюдной местности с применением специально обученных собак;</li>
-          <li class="card__list-el">Организация взаимодействия кинологов-волонтёров по всей стране;</li>
-          <li class="card__list-el">Организация систем обучения и подготовки кинологов-волонтёров к выполнению поисковых работ;</li>
-          <li class="card__list-el">Подготовка и проведение лесных испытаний для проверки готовности кинологических расчётов к выполнению работ по предназначению;</li>
-          <li class="card__list-el">Выработка порядка взаимодействия с кинологическими расчётами в ходе проведения&nbsp;ПСР.</li>
-        </ul>
+          и продолжаем заниматься этим непростым делом до сих пор. С 2018 года, совместно с руководством отряда «ЛизаАлерт» было принято решение о развитии кинологического направления в рамках отряда.</p>
+        <div class="card__row-gap">
+          <h3 class="card__subheader">Основные задачи нашего подразделения:</h3>
+          <ul class="card__list">
+            <li class="card__list-el">Безвозмездное оказание помощи гражданам, оказавшимся в зонах бедствия или&nbsp;пропавшим в безлюдной местности с применением специально обученных собак;</li>
+            <li class="card__list-el">Организация взаимодействия кинологов-волонтёров по всей стране;</li>
+            <li class="card__list-el">Организация систем обучения и подготовки кинологов-волонтёров к выполнению поисковых работ;</li>
+            <li class="card__list-el">Подготовка и проведение лесных испытаний для проверки готовности кинологических расчётов к выполнению работ по предназначению;</li>
+            <li class="card__list-el">Выработка порядка взаимодействия с кинологическими расчётами в ходе проведения&nbsp;ПСР.</li>
+          </ul>
+        </div>
       </div>  
     </section>
 
@@ -159,32 +161,34 @@
     <section class="card">
       <div class="card__header">
         <h2 class="card__header-text">FAQ</h2>
-        <button type="button" class="card__button" aria-label="Свернуть FAQ">Свернуть</button>
+        <button type="button" class="card__button" id="faqButton" aria-label="Свернуть FAQ">Свернуть</button>
       </div>
-      <div class="card__block card__block_faq">
-        <div class="card__flex">
-          <h3 class="card__subheader">Как проходит обучение?</h3>
-          <button type="button" class="card__button card__button_faq" aria-label="Свернуть первый вопрос"></button>
+      <div id="cardFaq">
+        <div class="card__block card__block_faq">
+          <div class="card__flex">
+            <h3 class="card__subheader">Как проходит обучение?</h3>
+            <button type="button" class="card__button card__button_faq" aria-label="Свернуть первый вопрос"></button>
+          </div>
+          <p class="card__text">Во время прохождения курса вам будут представлены текстовые уроки, видео–материалы, онлайн-вебинар и финальный тест на усвоение темы.</p>
+          <p class="card__text-margin">Время на прохождение курса ограничено. У вас есть 64 часа, чтобы внимательно пройти все материалы курса и пройти тест.</p>
         </div>
-        <p class="card__text">Во время прохождения курса вам будут представлены текстовые уроки, видео–материалы, онлайн-вебинар и финальный тест на усвоение темы.</p>
-        <p class="card__text-margin">Время на прохождение курса ограничено. У вас есть 64 часа, чтобы внимательно пройти все материалы курса и пройти тест.</p>
-      </div>
 
-      <div class="card__block card__block_faq">
-        <div class="card__flex">
-          <h3 class="card__subheader">Что, если я не набрал достаточное колличество баллов?</h3>
-          <button type="button" class="card__button card__button_faq" aria-label="Свернуть первый вопрос"></button>
+        <div class="card__block card__block_faq">
+          <div class="card__flex">
+            <h3 class="card__subheader">Что, если я не набрал достаточное колличество баллов?</h3>
+            <button type="button" class="card__button card__button_faq" aria-label="Свернуть первый вопрос"></button>
+          </div>
+          <p class="card__text">У вас есть 2 попытки, чтобы пройти тест ещё раз.</p>
         </div>
-        <p class="card__text">У вас есть 2 попытки, чтобы пройти тест ещё раз.</p>
-      </div>
 
-      <div class="card__block card__block_faq">
-        <div class="card__flex">
-          <h3 class="card__subheader">Как долго доступны материалы?</h3>
-          <button type="button" class="card__button card__button_faq" aria-label="Свернуть первый вопрос"></button>
+        <div class="card__block card__block_faq">
+          <div class="card__flex">
+            <h3 class="card__subheader">Как долго доступны материалы?</h3>
+            <button type="button" class="card__button card__button_faq" aria-label="Свернуть первый вопрос"></button>
+          </div>
+          <p class="card__text">Материалы курса доступны в течение 64-х часов с момента начала прохождения курса.</p>
+          <p class="card__text-margin">Если вы успешно прошли финальный тест, материалы курса будут доступны бессрочно.</p>
         </div>
-        <p class="card__text">Материалы курса доступны в течение 64-х часов с момента начала прохождения курса.</p>
-        <p class="card__text-margin">Если вы успешно прошли финальный тест, материалы курса будут доступны бессрочно.</p>
       </div>
     </section>
 
@@ -195,7 +199,7 @@
 
   </aside>
 
-  <script type="'module" src="./script/course.js"></script>
+  <script src="./script/course.js"></script>
 </body>
 
 </html>
