@@ -1,6 +1,7 @@
 .card__icon {
-  margin-right: 10px;
+  margin-right: 8px;
   width: 24px;
   height: 24px;
-  object-fit: none;
+  background-position: center;
+  background-repeat: no-repeat; 
 }

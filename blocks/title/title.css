@@ -1,3 +1,9 @@
 .title {
+  font-family: 'Golos';
+  font-weight: 700;
   font-size: 48px;
+  line-height: 52px;
+  margin: 0;
+
+  color: #212329;
 }

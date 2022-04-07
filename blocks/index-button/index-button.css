@@ -4,6 +4,8 @@
   grid-template-rows: 48px;
   grid-template-columns: 184px 184px;
   margin: 0;
-  padding: 24px 32px;
+  width: 872px;
+  box-sizing: border-box;
+  padding: 0 32px;
   justify-content: end;
 }

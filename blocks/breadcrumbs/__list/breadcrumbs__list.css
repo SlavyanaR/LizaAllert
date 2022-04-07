@@ -3,7 +3,8 @@
   flex-direction: row;
   flex-wrap: wrap;
   margin: 0;
-  padding: 0 0 8px;
+  padding: 0;
+  height: 24px;
 }
 
 .breadcrumbs__list .breadcrumbs__item+.breadcrumbs__item::before {
