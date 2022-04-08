@@ -28,9 +28,10 @@
     <section class="card">
       <div class="card__header">
         <h2 class="card__header-text">Описание курса</h2>
-        <button type="button" class="card__button" aria-label="Свернуть описание курса">Свернуть</button>
+        <button type="button" class="card__button" aria-label="Развернуть описание курса">Развернуть</button>
       </div>
-      <p class="card__text">Наряду с профессиональными отрядами спасателей у нас активно развивается движение волонтёров. Мы начали готовить первых собак-спасателей в начале 2000-х 
+      <div class="card__wrapper">
+      <p class="card__text card__text_type_description">Наряду с профессиональными отрядами спасателей у нас активно развивается движение волонтёров. Мы начали готовить первых собак-спасателей в начале 2000-х 
         и продолжаем заниматься этим непростым делом до сих пор. С 2018 года, совместно с руководством отряда «ЛизаАлерт» было принято решение о развитии кинологического направления в рамках отряда.</p>
       <div class="card__row-gap">
         <h3 class="card__subheader">Основные задачи нашего подразделения:</h3>
@@ -41,15 +42,17 @@
           <li class="card__list-el">Подготовка и проведение лесных испытаний для проверки готовности кинологических расчётов к выполнению работ по предназначению;</li>
           <li class="card__list-el">Выработка порядка взаимодействия с кинологическими расчётами в ходе проведения&nbsp;ПСР.</li>
         </ul>
+        </div>
       </div>  
     </section>
 
     <section class="card">
       <div class="card__header">
         <h2 class="card__header-text">Чему вы научитесь</h2>
-        <button type="button" class="card__button" aria-label="Свернуть навыки">Свернуть</button>
+        <button type="button" class="card__button" aria-label="Развернуть навыки">Развернуть</button>
       </div>
-      <div class="card__point-box">
+      <div class="card__wrapper">
+      <div class="card__point-box card__point-box_type_opened">
         <div class="card__point">
           <div class="card__flex"><div class="card__icon card__icon_black"></div><h3 class="card__subheader">Поисково-спасательная работа</h3></div>
           <p class="card__text">Оказание помощи гражданам, оказавшимся в зонах бедствия или пропавшим в безлюдной местности</p>
@@ -62,15 +65,17 @@
           <div class="card__flex"><div class="card__icon card__icon_black"></div><h3 class="card__subheader">Поиск тел погибших</h3></div>
           <p class="card__text">Поиск тел и их остатков с применением специально обученных собак</p>
         </div>
+        </div>
       </div>
     </section>
 
     <section class="card">
       <div class="card__header">
         <h2 class="card__header-text">Содержание</h2>
-        <button type="button" class="card__button" aria-label="Свернуть навыки">Свернуть</button>
+        <button type="button" class="card__button" aria-label="Развернуть навыки">Развернуть</button>
       </div>
-      <div class="card__block">
+      <div class="card__wrapper">
+      <div class="card__block card__block_type_opened">
         <div class="card__column">
           <p class="card__text">1. В каких случаях перспективно применение следовых кинологических расчётов</p>
         </div>
@@ -83,7 +88,7 @@
         </div>
       </div>
 
-      <div class="card__block">
+      <div class="card__block card__block_type_opened">
         <div class="card__column">
           <p class="card__text">2. Необходимые обеспечительные меры для успешного применения следовых (розыскных собак)</p>
         </div>
@@ -96,7 +101,7 @@
         </div>
       </div>
 
-      <div class="card__block">
+      <div class="card__block card__block_type_opened">
         <div class="card__column">
           <p class="card__text">3. Особенности привлечения следовых расчётов на ПСР и особенности взаимодействия</p>
         </div>
@@ -110,7 +115,7 @@
         </div>
       </div>
 
-      <div class="card__block">
+      <div class="card__block card__block_type_opened">
         <div class="card__column">
           <p class="card__text">4. Корректная постановка задачи кинологу и особенности её исполнения</p>
         </div>
@@ -119,7 +124,7 @@
         </div>
       </div>
 
-      <div class="card__block">
+      <div class="card__block card__block_type_opened">
         <div class="card__column">
           <p class="card__text">5. Работа &laquo;второго номера&raquo; совместно со следовым кинологическим расчётом</p>
         </div>
@@ -132,7 +137,7 @@
         </div>
       </div>
 
-      <div class="card__block">
+      <div class="card__block card__block_type_opened">
         <div class="card__column">
           <p class="card__text">6. Оценка качества и особенности анализа результата проделанной следовым кинологическим расчётом работы</p>
         </div>
@@ -144,7 +149,7 @@
         </div>
       </div>
 
-      <div class="card__block">
+      <div class="card__block card__block_type_opened">
         <div class="card__column">
           <p class="card__text">7. Особенности и пределы использования РПРС'ом полученной в ходе применения специальной следовой собаки информации в целях успешного разрешения поисков</p>
         </div>
@@ -154,9 +159,41 @@
           <div class="card__flex"><div class="card__icon card__icon_test"></div><p class="card__text card__text-short">Тест</p></div>
         </div>
       </div>
+      </div>
     </section>
 
-    <section class="questions">
+    <section class="card">
+      <div class="card__header">
+        <h2 class="card__header-text">FAQ</h2>
+        <button type="button" class="card__button" id="faqButton" aria-label="Свернуть FAQ">Свернуть</button>
+      </div>
+      <div id="cardFaq">
+        <div class="card__block card__block_faq">
+          <div class="card__flex">
+            <h3 class="card__subheader">Как проходит обучение?</h3>
+            <button type="button" class="card__button card__button_faq" aria-label="Свернуть первый вопрос"></button>
+          </div>
+          <p class="card__text">Во время прохождения курса вам будут представлены текстовые уроки, видео–материалы, онлайн-вебинар и финальный тест на усвоение темы.</p>
+          <p class="card__text-margin">Время на прохождение курса ограничено. У вас есть 64 часа, чтобы внимательно пройти все материалы курса и пройти тест.</p>
+        </div>
+
+        <div class="card__block card__block_faq">
+          <div class="card__flex">
+            <h3 class="card__subheader">Что, если я не набрал достаточное колличество баллов?</h3>
+            <button type="button" class="card__button card__button_faq" aria-label="Свернуть первый вопрос"></button>
+          </div>
+          <p class="card__text">У вас есть 2 попытки, чтобы пройти тест ещё раз.</p>
+        </div>
+
+        <div class="card__block card__block_faq">
+          <div class="card__flex">
+            <h3 class="card__subheader">Как долго доступны материалы?</h3>
+            <button type="button" class="card__button card__button_faq" aria-label="Свернуть первый вопрос"></button>
+          </div>
+          <p class="card__text">Материалы курса доступны в течение 64-х часов с момента начала прохождения курса.</p>
+          <p class="card__text-margin">Если вы успешно прошли финальный тест, материалы курса будут доступны бессрочно.</p>
+        </div>
+      </div>
     </section>
 
 
@@ -165,8 +202,7 @@
   <aside class="index">
 
   </aside>
-
-  <script type="module" src="./script/course.js"></script>
+  <script src="script/course.js"></script>
 </body>
 
 </html>
