@@ -16,14 +16,17 @@
 @import url(../blocks/card/__header-text/card__header-text.css);
 @import url(../blocks/card/__button/card__button.css);
 @import url(../blocks/card/__text/card__text.css);
+@import url(../blocks/card/__text/_type/card__text_type_description.css);
 @import url(../blocks/card/__subheader/card__subheader.css);
 @import url(../blocks/card/__list/card__list.css);
 @import url(../blocks/card/__list-el/card__list-el.css);
 @import url(../blocks/card/__icon/card__icon.css);
 @import url(../blocks/card/__point-box/card__point-box.css);
+@import url(../blocks/card/__point-box/_type/card__point-box_type_opened.css);
 @import url(../blocks/card/__point/card__point.css);
 @import url(../blocks/card/__flex/card__flex.css);
 @import url(../blocks/card/__block/card__block.css);
+@import url(../blocks/card/__block/_type/card__block_type_opened.css);
 @import url(../blocks/card/__column/card__column.css);
 @import url(../blocks/card/__icon/_black/card__icon_black.css);
 @import url(../blocks/card/__icon/_green/card__icon_green.css);
@@ -32,6 +35,10 @@
 @import url(../blocks/card/__icon/_video/card__icon_video.css);
 @import url(../blocks/card/__icon/_vebinar/card__icon_vebinar.css);
 @import url(../blocks/card/__icon/_test/card__icon_test.css);
+
+@import url(../blocks/card/__wrapper/card__wrapper.css);
+@import url(../blocks/card/__wrapper/_type/card__wrapper_type_active.css);
+
 @import url(../blocks/card/__block/_faq/card__block_faq.css);
 @import url(../blocks/card/__button/_faq/card__button_faq.css);
 @import url(../blocks/card/__text-margin/card__text-margin.css);
