@@ -1,3 +1,4 @@
+
 const accordions = document.querySelectorAll(".card__button");
 
 //Открытие аккордеона 
@@ -15,5 +16,3 @@ for (item of accordions) {
     contentNeighbor.classList.toggle("card__wrapper_type_active");
   });
 }
-
-
