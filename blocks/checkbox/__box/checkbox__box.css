@@ -1,0 +1,8 @@
+.checkbox__box {
+  flex-shrink: 0;
+  margin-right: 8px;
+  width: 20px;
+  height: 20px;
+  background-image: url(../../../images/checkbox.svg);
+  background-position: center;
+}
