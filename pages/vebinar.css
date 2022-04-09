@@ -34,6 +34,10 @@
 @import url(../blocks/index-background/index-background.css);
 @import url(../blocks/index-title/index-title.css);
 @import url(../blocks/index-content-list/index-content-list.css);
+@import url(../blocks/index-content-list/__image/index-content-list__image.css);
+@import url(../blocks/index-content-list/__item/index-content-list__item.css);
+@import url(../blocks/index-content-list/__item/_type_icon/index-content-list__item_type_icon.css);
+@import url(../blocks/index-content-list/__item/_type_image/index-content-list__item_type_image.css);
 @import url(../blocks/index-list/index-list.css);
 @import url(../blocks/index-list/__item/index-list__item.css);
 @import url(../blocks/index-list/__button/index-list__button.css);
