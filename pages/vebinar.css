@@ -31,6 +31,10 @@
 @import url(../blocks/index-title/index-title.css);
 @import url(../blocks/index-list/index-list.css);
 @import url(../blocks/index-list/__item/index-list__item.css);
+@import url(../blocks/index-list/__button/index-list__button.css);
+@import url(../blocks/index-list/__icon/index-list__icon.css);
+@import url(../blocks/index-list/__content/index-list__conten.css);
+@import url(../blocks/index-list/__content-inner/index-list__content-inner.css);
 @import url(../blocks/card/card.css);
 @import url(../blocks/card/__header-text/card__header-text.css);
 @import url(../blocks/card/__icon/_row/card__icon_row.css);
