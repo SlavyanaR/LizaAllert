@@ -50,11 +50,11 @@
       </button>
     </section>
     <div class="index-button">
-      <button type="button" class="button button_type_inactive">
+      <button type="button" class="button button_type_inactive" id="goToText">
         <img src="./images/back-arrow-inactive.svg" alt="Назад" class="button__image button__image_left">
         Назад
       </button>
-      <button type="button" class="button button_type_active">
+      <button type="button" class="button button_type_active" id="goToVideo">
         Далее
         <img src="./images/forward-arrow-active.svg" alt="Далее" class="button__image button__image_right">
       </button>
@@ -66,48 +66,284 @@
   <aside class="index">
     <section class="index-background">
       <h3 class="index-title">Содержание</h3>
+
       <ul class="index-list">
         <li class="index-list__item">
-          <p class="card__text">
+          <button class="index-list__button card__text">
             1. В каких случаях перспективно применение следовых кинологических расчётов
-          </p>
-          <div class="card__icon_row card__icon"></div>
+            <div class="index-list__icon card__icon_row card__icon"></div>
+          </button>
+
+          <div class="index-list__content">
+            <div class="index-list__content-inner">
+              <ul class="index-content-list">
+                <li>
+                  <label class="checkbox">
+                    <input class="checkbox__input" type="checkbox" checked>
+                    <span class="checkbox__box"></span>
+                    <span class="checkbox__label">Активный элемент списка</span>
+                  </label>
+                </li>
+                <li>
+                  <label class="checkbox">
+                    <input class="checkbox__input" type="checkbox" checked>
+                    <span class="checkbox__box"></span>
+                    <span class="checkbox__label">Активный элемент списка</span>
+                  </label>
+                </li>
+                <li>
+                  <label class="checkbox">
+                    <input class="checkbox__input" type="checkbox">
+                    <span class="checkbox__box"></span>
+                    <span class="checkbox__label">Элемент списка</span>
+                  </label>
+                </li>
+                <li>
+                  <label class="checkbox">
+                    <input class="checkbox__input" type="checkbox">
+                    <span class="checkbox__box"></span>
+                    <span class="checkbox__label">Элемент списка</span>
+                  </label>
+                </li>
+                <li>
+                  <label class="checkbox">
+                    <input class="checkbox__input" type="checkbox">
+                    <span class="checkbox__box"></span>
+                    <span class="checkbox__label">Элемент списка</span>
+                  </label>
+                </li>
+              </ul>
+            </div>
+          </div>
         </li>
+
         <li class="index-list__item">
-          <p class="card__text">
+          <button class="index-list__button card__text">
             2. Необходимые обеспечительные меры для успешного применения следовых (розыскных собак)
-          </p>
-          <div class="card__icon_row card__icon"></div>
+            <div class="index-list__icon card__icon_row card__icon"></div>
+          </button>
+
+          <div class="index-list__content">
+            <div class="index-list__content-inner">
+              <ul class="index-content-list">
+                <li>
+                  <label class="checkbox">
+                    <input class="checkbox__input" type="checkbox" checked>
+                    <span class="checkbox__box"></span>
+                    <span class="checkbox__label">Активный элемент списка</span>
+                  </label>
+                </li>
+                <li>
+                  <label class="checkbox">
+                    <input class="checkbox__input" type="checkbox" checked>
+                    <span class="checkbox__box"></span>
+                    <span class="checkbox__label">Активный элемент списка</span>
+                  </label>
+                </li>
+                <li>
+                  <label class="checkbox">
+                    <input class="checkbox__input" type="checkbox">
+                    <span class="checkbox__box"></span>
+                    <span class="checkbox__label">Элемент списка</span>
+                  </label>
+                </li>
+                <li>
+                  <label class="checkbox">
+                    <input class="checkbox__input" type="checkbox">
+                    <span class="checkbox__box"></span>
+                    <span class="checkbox__label">Элемент списка</span>
+                  </label>
+                </li>
+                <li>
+                  <label class="checkbox">
+                    <input class="checkbox__input" type="checkbox">
+                    <span class="checkbox__box"></span>
+                    <span class="checkbox__label">Элемент списка</span>
+                  </label>
+                </li>
+              </ul>
+            </div>
+          </div>
         </li>
-        <li class="index-list__item">
-          <p class="card__text">
+
+        <li class="index-list__item index-list__item_visible">
+          <button class="index-list__button card__text">
             3. Особенности привлечения следовых расчётов на ПСР и особенности взаимодействия
-          </p>
-          <div class="card__icon_row card__icon"></div>
+            <div class="index-list__icon card__icon_row card__icon"></div>
+          </button>
+
+          <div class="index-list__content">
+            <div class="index-list__content-inner">
+              <ul class="index-content-list">
+                <li class="index-content-list__item index-content-list__item_type_icon">
+                  Урок
+                </li>
+                <li class="index-content-list__item index-content-list__item_type_icon">
+                  Вебинар
+                </li>
+                <li class="index-content-list__item index-content-list__item_type_icon">
+                  Урок
+                </li>
+                <li class="index-content-list__item index-content-list__item_type_icon">
+                  Видео
+                </li>
+                <li class="index-content-list__item index-content-list__item_type_icon">
+                  Тест
+                </li>
+              </ul>
+            </div>
+          </div>
         </li>
-        <li class="index-list__item">
-          <p class="card__text">
+
+        <li class="index-list__item index-list__item_visible">
+          <button class="index-list__button card__text">
             4. Корректная постановка задачи кинологу и особенности её исполнения
-          </p>
-          <div class="card__icon_row card__icon"></div>
+            <div class="index-list__icon card__icon_row card__icon"></div>
+          </button>
+
+          <div class="index-list__content">
+            <div class="index-list__content-inner">
+              <ul class="index-content-list">
+                <li class="index-content-list__item index-content-list__item_type_icon">
+                  Вебинар
+                </li>
+              </ul>
+            </div>
+          </div>
         </li>
-        <li class="index-list__item">
-          <p class="card__text">
+
+        <li class="index-list__item index-list__item_visible">
+          <button class="index-list__button card__text">
             5. Работа «второго номера» совместно со следовым кинологическим расчётом
-          </p>
-          <div class="card__icon_row card__icon"></div>
+            <div class="index-list__icon card__icon_row card__icon"></div>
+          </button>
+
+          <div class="index-list__content">
+            <div class="index-list__content-inner">
+              <ul class="index-content-list">
+                <li class="index-content-list__item index-content-list__item_type_icon">
+                  Дрессировка поисково-спасательных собак
+                </li>
+                <li class="index-content-list__item">
+                  <label class="checkbox">
+                    <input class="checkbox__input" type="checkbox" checked>
+                    <span class="checkbox__box"></span>
+                    <span class="checkbox__label">Вебинар</span>
+                  </label>
+                </li>
+                <li class="index-content-list__item index-content-list__item_type_image">
+                  <img class="index-content-list__image" src="images/card-lesson-icon.png" alt="">
+                  Урок
+                </li>
+                <li class="index-content-list__item index-content-list__item_type_image">
+                  <img class="index-content-list__image" src="images/card-video-icon.png" alt="">
+                  Видео
+                </li>
+                <li class="index-content-list__item index-content-list__item_type_image">
+                  <img class="index-content-list__image" src="images/card-test-icon.png" alt="">
+                  Тест
+                </li>
+              </ul>
+            </div>
+          </div>
         </li>
+
         <li class="index-list__item">
-          <p class="card__text">
+          <button class="index-list__button card__text">
             6. Оценка качества и особенности анализа результата проделанной следовым кинологическим расчётом работы
-          </p>
-          <div class="card__icon_row card__icon"></div>
+            <div class="index-list__icon card__icon_row card__icon"></div>
+          </button>
+
+          <div class="index-list__content">
+            <div class="index-list__content-inner">
+              <ul class="index-content-list">
+                <li>
+                  <label class="checkbox">
+                    <input class="checkbox__input" type="checkbox" checked>
+                    <span class="checkbox__box"></span>
+                    <span class="checkbox__label">Активный элемент списка</span>
+                  </label>
+                </li>
+                <li>
+                  <label class="checkbox">
+                    <input class="checkbox__input" type="checkbox" checked>
+                    <span class="checkbox__box"></span>
+                    <span class="checkbox__label">Активный элемент списка</span>
+                  </label>
+                </li>
+                <li>
+                  <label class="checkbox">
+                    <input class="checkbox__input" type="checkbox">
+                    <span class="checkbox__box"></span>
+                    <span class="checkbox__label">Элемент списка</span>
+                  </label>
+                </li>
+                <li>
+                  <label class="checkbox">
+                    <input class="checkbox__input" type="checkbox">
+                    <span class="checkbox__box"></span>
+                    <span class="checkbox__label">Элемент списка</span>
+                  </label>
+                </li>
+                <li>
+                  <label class="checkbox">
+                    <input class="checkbox__input" type="checkbox">
+                    <span class="checkbox__box"></span>
+                    <span class="checkbox__label">Элемент списка</span>
+                  </label>
+                </li>
+              </ul>
+            </div>
+          </div>
         </li>
+
         <li class="index-list__item">
-          <p class="card__text">
+          <button class="index-list__button card__text">
             7. Особенности и пределы использования РПРС ом полученной в ходе применения специальной следовой собаки информации в целях успешного разрешения поисков
-          </p>
-          <div class="card__icon_row card__icon"></div>
+            <div class="index-list__icon card__icon_row card__icon"></div>
+          </button>
+
+          <div class="index-list__content">
+            <div class="index-list__content-inner">
+              <ul class="index-content-list">
+                <li>
+                  <label class="checkbox">
+                    <input class="checkbox__input" type="checkbox" checked>
+                    <span class="checkbox__box"></span>
+                    <span class="checkbox__label">Активный элемент списка</span>
+                  </label>
+                </li>
+                <li>
+                  <label class="checkbox">
+                    <input class="checkbox__input" type="checkbox" checked>
+                    <span class="checkbox__box"></span>
+                    <span class="checkbox__label">Активный элемент списка</span>
+                  </label>
+                </li>
+                <li>
+                  <label class="checkbox">
+                    <input class="checkbox__input" type="checkbox">
+                    <span class="checkbox__box"></span>
+                    <span class="checkbox__label">Элемент списка</span>
+                  </label>
+                </li>
+                <li>
+                  <label class="checkbox">
+                    <input class="checkbox__input" type="checkbox">
+                    <span class="checkbox__box"></span>
+                    <span class="checkbox__label">Элемент списка</span>
+                  </label>
+                </li>
+                <li>
+                  <label class="checkbox">
+                    <input class="checkbox__input" type="checkbox">
+                    <span class="checkbox__box"></span>
+                    <span class="checkbox__label">Элемент списка</span>
+                  </label>
+                </li>
+              </ul>
+            </div>
+          </div>
         </li>
       </ul>
     </section>
@@ -115,7 +351,7 @@
   </aside>
 
 
-  <script type="'module" src="./script/vebinar.js"></script>
+  <script type="module" src="./script/vebinar.js"></script>
 </body>
 
 </html>
