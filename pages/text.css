@@ -37,6 +37,7 @@
 @import url(../blocks/index-content-list/index-content-list.css);
 @import url(../blocks/index-content-list/__image/index-content-list__image.css);
 @import url(../blocks/index-content-list/__item/index-content-list__item.css);
+@import url(../blocks/index-content-list/__item/_active/index-content-list__item_active.css);
 @import url(../blocks/index-content-list/__item/_type_icon/index-content-list__item_type_icon.css);
 @import url(../blocks/index-content-list/__item/_type_image/index-content-list__item_type_image.css);
 @import url(../blocks/index-list/index-list.css);
