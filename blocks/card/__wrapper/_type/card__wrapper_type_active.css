@@ -1,4 +1,4 @@
 .card__wrapper_type_active {
-  max-height: 200px;
   transition: .5s linear;
+  /* max-height: 200px; */
 }
