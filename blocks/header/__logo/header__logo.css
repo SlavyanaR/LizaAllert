@@ -1,6 +1,8 @@
 .header__logo {
   margin: 0;
-  font-family: 'Golos';
+  padding: 0;
+  font-style: normal;
+  font-weight: 700;
   color: #212329;
   font-weight: 700;
   font-size: 18px;
