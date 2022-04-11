@@ -10,3 +10,7 @@
   margin-block-end: 0;
   color: #212329;
 }
+
+.header__link:hover {
+  opacity: .8;
+}
