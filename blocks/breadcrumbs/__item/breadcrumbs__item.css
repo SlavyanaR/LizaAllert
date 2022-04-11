@@ -6,12 +6,16 @@
   margin: 0;
   padding: 0 0 16px;
   overflow: hidden;
-  max-width: 521px;
   white-space: nowrap;
   text-overflow: ellipsis;
 }
 
-.breadcrumbs__item:last-of-type{
-  color: #9397A3;
+.breadcrumbs__item:first-child,
+.breadcrumbs__item:nth-child(2){
+  flex-shrink: 0;
+}
 
+.breadcrumbs__item:last-of-type{
+  flex-shrink: 0;
+  color: #9397A3;
 }
