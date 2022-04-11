@@ -1,5 +1,6 @@
 .card__text_type_vebinar{
   display: flex;
   justify-content: center;
-  padding-bottom: 44px;
+  padding-bottom: 32px;
+  padding-top: 32px;
 }

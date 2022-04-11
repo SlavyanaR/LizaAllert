@@ -1,8 +1,9 @@
 .header__list-el {
-  list-style-type: none;
-  display: flex;
+  margin: 0;
+  margin-right: 42px;
+  padding: 0;
 }
 
 .header__list-el:last-of-type {
-  padding-left: 40px;
+  margin-right: 0;
 }
