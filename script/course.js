@@ -25,21 +25,20 @@ for (item of accordions) {
 const faqAqqordions = document.querySelectorAll(".card__button_type_faq");
 for (item of faqAqqordions) {
   item.addEventListener("click", function (){
-    const content = this.parentElement;
-    const section = content.parentElement.parentElement.parentElement;
-    const cardFaq = content.nextElementSibling;
-
-    if (!cardFaq.classList.contains("card__wrapper_type_active")) {
+    const questionHeader = this.parentElement;
+    const cardFaq= questionHeader.parentElement.parentElement;
+    const  questionContent= questionHeader.nextElementSibling;
+    console.log(questionHeader)
+    if (!questionContent.classList.contains("card__wrapper_type_active")) {
       this.style.transform = "rotate(-180deg)";
       this.style.transition = '.1s linear'
-      cardFaq.style.maxHeight = cardFaq.scrollHeight + "px";
-      // section.style.maxHeight = section.scrollHeight + cardFaq.scrollHeight + "px";   
+      questionContent.style.maxHeight = questionContent.scrollHeight + "px"; 
+      cardFaq.style.maxHeight = cardFaq.scrollHeight + questionContent.scrollHeight + "px";
+      questionContent.style.display = 'block';
     } else {
       this.style.transform = "rotate(0deg)";
-      cardFaq.style.maxHeight = 0;
-      // section.style.maxHeight = section.scrollHeight + cardFaq.scrollHeight + "px";
+      questionContent.style.maxHeight = 0;
     }
-    console.log(section);
-    cardFaq.classList.toggle("card__wrapper_type_active");
+    questionContent.classList.toggle("card__wrapper_type_active");
   });
 }
