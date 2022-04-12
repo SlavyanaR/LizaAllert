@@ -1,11 +1,10 @@
-# LizaAllert
 **Обзор**
 
 Часть большого проекта для некоммерческой организации LizaAlert
 
 **Технологии**
 
-- HTML, 
+- HTML,
 - CSS (Flex,grid, БЭМ)
 - Javasrcipt
 
