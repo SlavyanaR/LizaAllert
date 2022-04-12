@@ -1,0 +1,11 @@
+.breadcrumbs__list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  height: 24px;
+}
+
+.breadcrumbs__list .breadcrumbs__item+.breadcrumbs__item::before {
+  content: "\00a0\276F\00a0";
+  padding-left: 4px;
+}

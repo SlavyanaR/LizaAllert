@@ -1,0 +1,10 @@
+.course-info__alert {
+  margin: 0;
+  padding-left: 32px;
+  color: #FF0000;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  background-image: url(../../../images/alert.svg);
+  background-repeat: no-repeat;
+}

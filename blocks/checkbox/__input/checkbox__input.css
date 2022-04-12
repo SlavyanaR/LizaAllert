@@ -1,0 +1,11 @@
+.checkbox__input {
+  display: none;
+}
+
+.checkbox__input:checked + .checkbox__box  {
+  background-image: url(../../../images/checkbox-active.svg);
+}
+
+.checkbox__input:checked ~ .checkbox__label  {
+  color: #F06000;
+}

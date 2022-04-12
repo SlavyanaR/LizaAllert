@@ -1,0 +1,12 @@
+.card {
+  padding: 32px;
+  background-color: #fff;
+  box-shadow: 0px 0px 4px rgba(231, 232, 235, 0.6), 0px 4px 16px rgba(231, 232, 235, 0.6);
+  border-radius: 16px;
+  margin: 0 0 24px;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  row-gap: 32px;
+  width: 872px;
+  box-sizing: border-box;
+}

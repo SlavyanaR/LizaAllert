@@ -1,0 +1,9 @@
+.card__wrapper {
+  max-height: 0;
+  overflow: hidden;
+  transition: .5s linear;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  row-gap: 32px;
+}

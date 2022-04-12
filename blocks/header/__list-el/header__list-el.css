@@ -1,0 +1,9 @@
+.header__list-el {
+  margin: 0;
+  margin-right: 42px;
+  padding: 0;
+}
+
+.header__list-el:last-of-type {
+  margin-right: 0;
+}

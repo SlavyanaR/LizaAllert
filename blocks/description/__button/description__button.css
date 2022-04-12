@@ -1,0 +1,15 @@
+.description__button {
+  width: 85px;
+  height: 24px;
+  background-color: #fff;
+  border: none;
+  padding: 0;
+
+  font-family: 'Golos';
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  cursor: pointer;
+
+  color: #212329;
+}
