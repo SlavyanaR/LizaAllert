@@ -1,7 +1,6 @@
-.index{
-grid-area: index;
-max-width: 424px;
-box-sizing: border-box;
-margin-bottom: 97px;
+.index {
+    grid-area: index;
+    max-width: 424px;
+    box-sizing: border-box;
+    margin-bottom: 97px;
 }
-

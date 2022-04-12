@@ -1,9 +1,9 @@
-.button_type_active{
+.button_type_active {
   background: #FF6600;
   color: #FFFFFF;
   border: 0;
 }
 
-.button_type_active:hover{
+.button_type_active:hover {
   opacity: 0.8;
 }

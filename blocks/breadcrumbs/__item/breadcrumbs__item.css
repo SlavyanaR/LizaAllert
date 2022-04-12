@@ -1,4 +1,4 @@
-.breadcrumbs__item{
+.breadcrumbs__item {
   display: inline;
   list-style: none;
   font-size: 18px;
@@ -11,11 +11,11 @@
 }
 
 .breadcrumbs__item:first-child,
-.breadcrumbs__item:nth-child(2){
+.breadcrumbs__item:nth-child(2) {
   flex-shrink: 0;
 }
 
-.breadcrumbs__item:last-of-type{
+.breadcrumbs__item:last-of-type {
   flex-shrink: 0;
   color: #9397A3;
 }

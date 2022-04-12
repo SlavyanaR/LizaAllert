@@ -1,4 +1,4 @@
-.button{
+.button {
   margin: 0 auto;
   padding: 0;
   display: flex;
@@ -11,6 +11,6 @@
   font-size: 18px;
   line-height: 24px;
   text-decoration: none;
-  cursor:pointer;
+  cursor: pointer;
   width: 184px;
 }
