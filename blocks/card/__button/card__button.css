@@ -11,3 +11,7 @@
   cursor: pointer;
   color: #212329;
 }
+
+.card__button:hover {
+  opacity: 0.8;
+}
