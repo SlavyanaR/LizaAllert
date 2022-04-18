@@ -5,10 +5,13 @@
   border: none;
   padding: 2px 0;
   text-align: right;
-  font-family: 'Golos';
   font-weight: 500;
   font-size: 18px;
   line-height: 24px;
   cursor: pointer;
   color: #212329;
+}
+
+.card__button:hover {
+  opacity: 0.8;
 }
