@@ -1,4 +1,11 @@
 .index-list__item {
-  border-top: 1px solid #E6E7EB;
+  display: grid;
+  grid-template-columns: 1fr 24px;
+  gap: 0 8px;
   padding: 32px 0 32px;
+  font-size: 18px;
+  line-height: 24px;
+  border-top: 1px solid #E6E7EB;
+  cursor: pointer;
+  transition: row-gap 30ms 170ms ease-in-out;
 }

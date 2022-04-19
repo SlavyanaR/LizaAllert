@@ -1,5 +1,10 @@
 .index-list__icon {
   margin: 0;
+  width: 24px;
+  height: 24px;
+  background-image: url(../../../../images/iron_row.svg);
+  background-position: center;
+  background-repeat: no-repeat;
   transition: transform .2s ease-in-out;
 }
 

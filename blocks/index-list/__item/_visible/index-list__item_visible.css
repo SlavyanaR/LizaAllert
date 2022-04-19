@@ -1,0 +1,4 @@
+.index-list__item_visible {
+  row-gap: 32px;
+  transition: row-gap 30ms ease-in-out;
+}

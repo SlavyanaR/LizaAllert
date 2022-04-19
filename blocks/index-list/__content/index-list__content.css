@@ -1,9 +1,12 @@
 .index-list__content {
+  grid-column: span 2;
   max-height: 0;
   overflow: hidden;
-  transition: max-height .2s ease-in-out;
+  cursor: auto;
+  transition: max-height 170ms ease-in-out;
 }
 
 .index-list__item_visible .index-list__content {
-  max-height: 800px;
+  max-height: 1000px;
+  transition: max-height 170ms 30ms ease-in-out;
 }
