@@ -1,5 +1,5 @@
 .index-list__content {
   max-height: 0;
   overflow: hidden;
-  transition: max-height .2s ease-in-out;
+  transition: .5s ease-in-out;
 }
