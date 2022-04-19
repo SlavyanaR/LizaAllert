@@ -1,0 +1,13 @@
+.index-list__item_visible {
+  row-gap: 32px;
+  transition: row-gap 30ms ease-in-out;
+}
+
+.index-list__item_visible .index-list__icon {
+  transform: rotate(-180deg);
+}
+
+.index-list__item_visible .index-list__content {
+  max-height: 1000px;
+  transition: max-height 170ms 30ms ease-in-out;
+}

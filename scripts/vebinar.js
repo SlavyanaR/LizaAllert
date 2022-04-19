@@ -2,9 +2,11 @@
 const indexListItemNodes = document.querySelectorAll('.index-list__item');
 
 indexListItemNodes.forEach((indexListItemNode) => {
-  const buttonNode = indexListItemNode.querySelector('.index-list__button');
+  const contentNode = indexListItemNode.querySelector('.index-list__content');
 
-  buttonNode.addEventListener('click', () => {
+  contentNode.addEventListener('click', (evt) => evt.stopPropagation());
+
+  indexListItemNode.addEventListener('click', () => {
     indexListItemNode.classList.toggle('index-list__item_visible');
   });
 });
@@ -15,12 +17,12 @@ const goToTextButton = document.querySelector('#goToText');
 function goToVideoButtonHandler() {
     document.location.href = './video.html';
   }
-  
+
 goToVideoButton.addEventListener('click', goToVideoButtonHandler);
 
 function goToTextButtonHandler() {
     document.location.href = './text.html';
   }
-  
+
 goToTextButton.addEventListener('click', goToTextButtonHandler);
 
