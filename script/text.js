@@ -21,7 +21,6 @@ for (const item of contentAqqordions){
   const  contentInner= contentList.nextElementSibling;
   if (!contentInner.classList.contains("index-list__conten_type_active")) {
         this.style.transform = "rotate(-180deg)";
-        this.style.transition = '.1s linear';
         contentInner.style.maxHeight = contentInner.scrollHeight + "px";
       } else {
         this.style.transform = "rotate(0deg)";

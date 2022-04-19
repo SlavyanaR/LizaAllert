@@ -11,3 +11,7 @@
     background-position: center;
     padding: 0;
 }
+
+.index-list__button_type_content:hover{
+    opacity: .8;
+}
