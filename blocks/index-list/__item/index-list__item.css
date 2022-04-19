@@ -2,11 +2,3 @@
   border-top: 1px solid #E6E7EB;
   padding: 32px 0 32px;
 }
-
-.index-list__item_visible .index-list__icon {
-  transform: rotate(-180deg);
-}
-
-.index-list__item_visible .index-list__content {
-  max-height: 800px;
-}

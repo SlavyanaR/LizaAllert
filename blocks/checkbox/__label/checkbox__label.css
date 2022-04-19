@@ -2,3 +2,7 @@
   font-size: 18px;
   line-height: 24px;
 }
+
+.checkbox__input:checked~.checkbox__label {
+  color: #F06000;
+}

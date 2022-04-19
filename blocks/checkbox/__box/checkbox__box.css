@@ -7,3 +7,7 @@
   background-image: url(../../../images/checkbox.svg);
   background-position: center;
 }
+
+.checkbox__input:checked+.checkbox__box {
+  background-image: url(../../../images/checkbox-active.svg);
+}

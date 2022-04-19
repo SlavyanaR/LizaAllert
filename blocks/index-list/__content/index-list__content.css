@@ -3,3 +3,7 @@
   overflow: hidden;
   transition: max-height .2s ease-in-out;
 }
+
+.index-list__item_visible .index-list__content {
+  max-height: 800px;
+}

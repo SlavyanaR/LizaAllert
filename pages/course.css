@@ -11,6 +11,7 @@
 @import url(../blocks/title/title.css);
 @import url(../blocks/content/content.css);
 @import url(../blocks/card/card.css);
+@import url(../blocks/open/open.css);
 @import url(../blocks/card/__header/card__header.css);
 @import url(../blocks/card/__header-text/card__header-text.css);
 @import url(../blocks/card/__subheader/_type/card__subheader_type_faq.css);
