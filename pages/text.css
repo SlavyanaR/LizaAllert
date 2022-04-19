@@ -47,3 +47,5 @@
 @import url(../blocks/index-list/__content/index-list__conten.css);
 @import url(../blocks/index-list/__content-inner/index-list__content-inner.css);
 @import url(../blocks/card/__flex/card__flex.css);
+
+@import url(../blocks/index-list/__button/_type/index-list__button_type_content.css);

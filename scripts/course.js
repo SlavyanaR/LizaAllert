@@ -28,10 +28,8 @@ for (item of faqAqqordions) {
     const questionHeader = this.parentElement;
     const cardFaq= questionHeader.parentElement.parentElement;
     const  questionContent= questionHeader.nextElementSibling;
-    console.log(questionHeader)
     if (!questionContent.classList.contains("card__wrapper_type_active")) {
       this.style.transform = "rotate(-180deg)";
-      this.style.transition = '.1s linear'
       questionContent.style.maxHeight = questionContent.scrollHeight + "px"; 
       cardFaq.style.maxHeight = cardFaq.scrollHeight + questionContent.scrollHeight + "px";
       questionContent.style.display = 'block';

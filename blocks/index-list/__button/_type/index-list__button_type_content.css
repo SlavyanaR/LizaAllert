@@ -1,0 +1,17 @@
+.index-list__button_type_content{
+    width: 104px;
+    height: 28px;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    background-image: url(../../../../images/card-faq.svg);
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0;
+}
+
+.index-list__button_type_content:hover{
+    opacity: .8;
+}
