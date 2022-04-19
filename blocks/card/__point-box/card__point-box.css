@@ -1,0 +1,6 @@
+.card__point-box {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 32px;
+}

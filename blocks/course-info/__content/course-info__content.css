@@ -1,0 +1,5 @@
+.course-info__content {
+  display: grid;
+  gap: 32px;
+  padding: 32px;
+}

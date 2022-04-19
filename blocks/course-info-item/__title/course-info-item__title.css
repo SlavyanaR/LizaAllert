@@ -1,0 +1,4 @@
+.course-info-item__title {
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,21 @@
+.breadcrumbs__item {
+  display: inline;
+  list-style: none;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0;
+  padding: 0 0 16px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.breadcrumbs__item:first-child,
+.breadcrumbs__item:nth-child(2) {
+  flex-shrink: 0;
+}
+
+.breadcrumbs__item:last-of-type {
+  flex-shrink: 0;
+  color: #9397A3;
+}

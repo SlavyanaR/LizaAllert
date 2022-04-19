@@ -1,0 +1,6 @@
+.breadcrumbs {
+  grid-area: breadcrumbs;
+  margin: 0 0 8px;
+  padding: 0;
+  min-height: 24px;
+}

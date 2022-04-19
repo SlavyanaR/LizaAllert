@@ -1,0 +1,8 @@
+.card__subheader {
+  margin: 0 0 16px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  min-width: 360px;
+  color: #212329;
+}

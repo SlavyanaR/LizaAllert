@@ -1,0 +1,11 @@
+.index-button {
+  display: grid;
+  column-gap: 24px;
+  grid-template-rows: 48px;
+  grid-template-columns: 184px 184px;
+  margin: 0;
+  width: 872px;
+  box-sizing: border-box;
+  padding: 0 32px;
+  justify-content: end;
+}
