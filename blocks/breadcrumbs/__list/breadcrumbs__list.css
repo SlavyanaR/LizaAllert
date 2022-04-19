@@ -2,6 +2,7 @@
   display: flex;
   margin: 0;
   padding: 0;
+  max-height: 24px;
 }
 
 .breadcrumbs__list .breadcrumbs__item+.breadcrumbs__item::before {
